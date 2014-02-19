@@ -337,7 +337,7 @@
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AICP/android_frameworks_av" remote="aicp" revision="kitkat" groups="pdk" />
-  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" revision="kitkat" />
+  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" revision="kitkat-caf" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -455,7 +455,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="notdefault,legacypackages" />
   <project path="packages/apps/ROMControl" name="AICP/packages_apps_ROMControl" remote="aicp" revision="kitkat" />
-  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" revision="kitkat" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" revision="kitkat-caf" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -581,7 +581,7 @@
 
   <!-- <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" /> -->
 
-  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="kitkat" />
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="kitkat-caf" />
 
   <!-- OMNISWITCH-->
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="omni" revision="android-4.4" />
