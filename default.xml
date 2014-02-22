@@ -75,7 +75,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AICP/external_bluetooth_bluedroid" remote="aicp" revision="kitkat" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="AOKP/external_busybox" remote="aokp" revision="kitkat" />
@@ -268,7 +268,7 @@
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AICP/android_frameworks_av" remote="aicp" revision="kitkat" groups="pdk" />
-  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" revision="kitkat" />
+  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" revision="kitkat-caf" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -301,7 +301,7 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="AICP/hardware_libhardware" remote="aicp" revision="kitkat" groups="pdk" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-11.0" groups="qcom" />
@@ -327,7 +327,8 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="AICP/packages_apps_Bluetooth" remote="aicp" revision="kitkat" />
+  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="AICP/packages_apps_Calendar" remote="aicp" revision="kitkat" />
@@ -361,7 +362,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="notdefault,legacypackages" />
   <project path="packages/apps/ROMControl" name="AICP/packages_apps_ROMControl" remote="aicp" revision="kitkat" />
-  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" revision="kitkat" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" revision="kitkat-caf" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -467,7 +468,7 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
 
-  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="kitkat" />
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="kitkat-caf" />
 
   <!-- OMNISWITCH-->
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" revision="kitkat" />
